@@ -21,3 +21,37 @@
   vertical-align: middle;
 }
 
+@media (min-width: 768px) {
+  .img-fluid {
+    height: auto;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    width: 40%;
+    max-width: 45%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+}
+
+.btn-group.btn-group-sm.flex-shrink-1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.col {
+  /*position: sticky;*/
+  /*top: 0;*/
+}
+
+#floatnav {
+  position: sticky;
+  top: 0;
+}
+
